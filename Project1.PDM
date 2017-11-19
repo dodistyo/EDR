@@ -1,0 +1,100 @@
+[Root]
+Most Recent Package=Employee Database
+
+
+[Package|Employee Database|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\Dodi\Desktop\zzzkid
+
+[Package|Employee Database|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Employee Database|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Employee Database|Files Found]
+
+[Package|Employee Database|Files Released]
+
+[Package|Employee Database|Missing Dependency Information]
+
+[Package|Employee Database|Out-of-Date Dependency Information]
+
+[Package|Employee Database|Files Added]
+C:\Users\Dodi\Desktop\VBdatabase\EDB\Dodo.mdb=
+
+[Package|Employee Database|Files Removed]
+
+[Package|Employee Database|Files In Project]
+C:\Users\Dodi\Desktop\VBdatabase\EDB\Project1.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\MSADODC.OCX=Yes
+C:\Windows\System32\MSSTDFMT.DLL=Yes
+C:\Windows\System32\MSDATGRD.OCX=Yes
+C:\Windows\System32\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Users\Dodi\Desktop\VBdatabase\EDB\Dodo.mdb=Yes
+
+[Package|Employee Database|Configure Registry Files]
+Applicable=No
+
+[Package|Employee Database|Configure Remote Servers]
+Applicable=No
+
+[Package|Employee Database|Install Locations]
+C:\Users\Dodi\Desktop\VBdatabase\EDB\Project1.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSADODC.OCX=$(WinSysPath)
+C:\Windows\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\System32\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\System32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Users\Dodi\Desktop\VBdatabase\EDB\Dodo.mdb=$(AppPath)
+
+[Package|Employee Database|Configure Shared Files]
+Applicable=Yes
+C:\Users\Dodi\Desktop\VBdatabase\EDB\Project1.exe=Yes
+C:\Users\Dodi\Desktop\VBdatabase\EDB\Dodo.mdb=Yes
+
+[Package|Employee Database|Distribution]
+Type=single
+Size=
+Title=DODO Company
+
+[Package|Employee Database|IconGroups]
+Group0=DODO Company
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Employee Database|DODO Company]
+Icon1=Project1.exe
+Title1=DODO Company
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Employee Database|Package]
+PackageFolder=C:\Users\Dodi\Desktop\zzzkid
+ProjectFolder=C:\Users\Dodi\Desktop\VBdatabase\EDB
+ServerSideCab=
+File1=C:\Users\Dodi\Desktop\zzzkid\setup.exe
+File2=C:\Users\Dodi\Desktop\zzzkid\Setup.Lst
+File3=C:\Users\Dodi\Desktop\zzzkid\Project1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
